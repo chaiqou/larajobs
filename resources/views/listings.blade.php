@@ -1,3 +1,5 @@
+<x-layout>
+
 <h1>{{ $heading }}</h1>
 
 @if(count($listings) === 0)
@@ -21,3 +23,5 @@
 </p>
 
 @endforeach
+
+</x-layout>

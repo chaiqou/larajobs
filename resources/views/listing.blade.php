@@ -1,1 +1,5 @@
-{{ $listing['name'] }}
+<x-layout>
+    {{ $listing['name'] }}
+
+</x-layout>
+
